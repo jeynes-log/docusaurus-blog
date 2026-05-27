@@ -74,7 +74,7 @@ const config: Config = {
         { to: '/archive', label: '기록', position: 'left' },
         { to: '/topics', label: '글감', position: 'left' },
         {
-          href: 'https://github.com/redonearth',
+          href: 'https://github.com/jeynes-log',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -89,11 +89,11 @@ const config: Config = {
           items: [
             {
               label: 'Instagram',
-              href: 'https://instagram.com/redonearth',
+              href: 'https://instagram.com/jeynes.log',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/redonearth',
+              href: 'https://github.com/jeynes-log',
             },
           ],
         },

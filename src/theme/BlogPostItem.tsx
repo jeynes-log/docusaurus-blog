@@ -22,7 +22,7 @@ export default function BlogPostItem(props: any): JSX.Element {
       const script = document.createElement('script');
 
       script.src = 'https://utteranc.es/client.js';
-      script.setAttribute('repo', 'redonearth/blog-comments');
+      script.setAttribute('repo', 'jeynes-log/blog-comments');
       script.setAttribute('issue-term', 'pathname');
       script.setAttribute('label', 'comment');
       script.setAttribute('theme', utterancesTheme);
