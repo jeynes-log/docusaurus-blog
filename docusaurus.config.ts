@@ -6,7 +6,7 @@ const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
 
 const config: Config = {
-  title: `Jeynes의 개발 블로그`,
+  title: 'Jeynes의 개발 블로그',
   tagline: 'Dev Blog of Jeynes',
   url: 'https://jeynes.me',
   baseUrl: '/',
@@ -64,7 +64,7 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: `Jeynes의 개발 블로그`,
+      title: 'Jeynes의 개발 블로그',
       logo: {
         alt: 'Jeynes Logo',
         src: 'img/logo.svg',
