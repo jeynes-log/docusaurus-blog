@@ -42,17 +42,8 @@ export default function BlogPostItem(props: Props): JSX.Element {
       utterancesEl?.contentWindow?.postMessage(message, 'https://utteranc.es');
     };
 
-    if (utterancesEl) {
-      postThemeMessage();
-    } else {
-      createUtterancesEl();
-    }
-
-    return () => {
-      container.querySelector(utterancesSelector)?.remove();
-      container.querySelector('script[src="https://utteranc.es/client.js"]')?.remove();
-    };
-  }, [isBlogPostPage, utterancesTheme]);
+    utterancesEl ? postThemeMessage() : createUtterancesEl();
+  }, [utterancesTheme]);
 
   return (
     <>
