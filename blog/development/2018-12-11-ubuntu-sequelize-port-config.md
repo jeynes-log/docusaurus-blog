@@ -16,7 +16,7 @@ tags: [mysql, sequelize, wsl, linux, ubuntu]
 
 우분투 등 리눅스에서는
 
-- `npm`나 `yarn` 같은 패키지 매니저를 이용해 설치
+- `npm`이나 `yarn` 같은 패키지 매니저를 이용해 설치
 
 하는 것이 일반적으로 선호되는 방법이다.
 
